@@ -6,7 +6,7 @@
 int SumDigits(int N)  // заголовок функции
 {
     int d, sum = 0;
-    while (N != 0);
+    while (N != 0)
     {
         d = N % 10;            // тело функции    
         sum = sum + d;
